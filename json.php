@@ -1,0 +1,13 @@
+<?php 
+$json='{
+"token":"sendmail",
+"host":"ssl://smtp.gmail.com",
+"user":"classforthemass@gmail.com",
+"password":"cfm@1234",
+"fromMail":"classforthemass@gmail.com",
+"toMail":"bhaskar.pragada@gmail.com",
+"subject":"test",
+"content":"test"
+}';
+$arr=json_decode($json);
+print_r($arr);
